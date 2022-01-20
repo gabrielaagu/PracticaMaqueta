@@ -1,0 +1,110 @@
+body {
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Outfit', sans-serif;
+}
+
+header {
+    background-image: url(./background_header.jpg);
+    z-index: 2;
+}
+
+menu {
+    background-color: black;
+    margin: 20px;
+}
+
+.nav-bar {
+    background-color: white;
+    width: 30vw;
+    height: 8vh;
+    display: flex;
+    justify-items: end;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+}
+
+.imagen-roja {
+    margin: 0%;
+    padding: 0%;
+    position: relative;
+    z-index: 1;
+    background-image: url(./imagenroja.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 60%;
+}
+
+.contenido-imagen-roja {
+    height: 80vh;
+    padding: 20px;
+}
+
+ul {
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    justify-content: end;
+}
+
+li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    color: white;
+    font-size: 25px;
+}
+
+#digitalise {
+    color: #30343f;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.apartado-principal {
+    padding-top: 20vh;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    border-radius: 20px;
+    border: 4px solid #30343f;
+    background-color: white;
+    color: #30343f;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+
+footer {
+    background-color: #30343f;
+    display: flex;
+    display: inline-flex;
+    width: 100%;
+    color: white;
+}
+
+.location,
+.clients,
+.experience {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#img-location,
+#img-clients,
+#img-experience {
+    width: 30%;
+    height: 10%;
+}
